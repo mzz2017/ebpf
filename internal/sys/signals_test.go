@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/mzz2017/ebpf/internal/unix"
 )
 
 func TestSigset(t *testing.T) {

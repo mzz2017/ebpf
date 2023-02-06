@@ -3,7 +3,7 @@ package link
 import (
 	"fmt"
 
-	"github.com/cilium/ebpf"
+	"github.com/mzz2017/ebpf"
 )
 
 // NetNsLink is a program attached to a network namespace.

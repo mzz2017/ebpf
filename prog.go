@@ -11,11 +11,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/mzz2017/ebpf/asm"
+	"github.com/mzz2017/ebpf/btf"
+	"github.com/mzz2017/ebpf/internal"
+	"github.com/mzz2017/ebpf/internal/sys"
+	"github.com/mzz2017/ebpf/internal/unix"
 )
 
 // ErrNotSupported is returned whenever the kernel doesn't support a feature.
@@ -580,7 +580,7 @@ func (p *Program) Run(opts *RunOptions) (uint32, error) {
 // interrupted, and should be set to testing.B.ResetTimer or similar.
 //
 // Note: profiling a call to this function will skew its results, see
-// https://github.com/cilium/ebpf/issues/24
+// https://github.com/mzz2017/ebpf/issues/24
 //
 // This function requires at least Linux 4.12.
 func (p *Program) Benchmark(in []byte, repeat int, reset func()) (uint32, time.Duration, error) {

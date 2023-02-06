@@ -8,7 +8,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/cilium/ebpf/internal"
+	"github.com/mzz2017/ebpf/internal"
 )
 
 type marshalOptions struct {

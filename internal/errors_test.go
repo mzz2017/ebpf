@@ -7,7 +7,7 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/mzz2017/ebpf/internal/unix"
 	qt "github.com/frankban/quicktest"
 )
 

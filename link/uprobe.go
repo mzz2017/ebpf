@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal"
+	"github.com/mzz2017/ebpf"
+	"github.com/mzz2017/ebpf/internal"
 )
 
 var (

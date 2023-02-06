@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/cilium/ebpf"
+	"github.com/mzz2017/ebpf"
 )
 
 type testBarfoo struct {

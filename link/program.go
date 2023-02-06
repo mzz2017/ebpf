@@ -3,8 +3,8 @@ package link
 import (
 	"fmt"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/internal/sys"
+	"github.com/mzz2017/ebpf"
+	"github.com/mzz2017/ebpf/internal/sys"
 )
 
 type RawAttachProgramOptions struct {

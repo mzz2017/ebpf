@@ -3,7 +3,7 @@ package internal
 import (
 	"fmt"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/mzz2017/ebpf/internal/unix"
 )
 
 const (

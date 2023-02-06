@@ -11,8 +11,8 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
+	"github.com/mzz2017/ebpf/internal"
+	"github.com/mzz2017/ebpf/internal/sys"
 )
 
 // marshalPtr converts an arbitrary value into a pointer suitable

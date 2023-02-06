@@ -3,7 +3,7 @@ package features
 import (
 	"testing"
 
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/mzz2017/ebpf/internal/testutils"
 )
 
 func TestHaveLargeInstructions(t *testing.T) {

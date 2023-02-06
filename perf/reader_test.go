@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/testutils"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/mzz2017/ebpf"
+	"github.com/mzz2017/ebpf/asm"
+	"github.com/mzz2017/ebpf/internal"
+	"github.com/mzz2017/ebpf/internal/testutils"
+	"github.com/mzz2017/ebpf/internal/unix"
 
 	qt "github.com/frankban/quicktest"
 )

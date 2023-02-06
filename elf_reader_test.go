@@ -12,10 +12,10 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/testutils"
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/mzz2017/ebpf/btf"
+	"github.com/mzz2017/ebpf/internal"
+	"github.com/mzz2017/ebpf/internal/testutils"
+	"github.com/mzz2017/ebpf/internal/unix"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"

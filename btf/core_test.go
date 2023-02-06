@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cilium/ebpf/internal/testutils"
+	"github.com/mzz2017/ebpf/internal/testutils"
 	"github.com/google/go-cmp/cmp"
 
 	qt "github.com/frankban/quicktest"

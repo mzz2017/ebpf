@@ -12,9 +12,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/cilium/ebpf/btf"
-	"github.com/cilium/ebpf/internal"
-	"github.com/cilium/ebpf/internal/sys"
+	"github.com/mzz2017/ebpf/btf"
+	"github.com/mzz2017/ebpf/internal"
+	"github.com/mzz2017/ebpf/internal/sys"
 )
 
 type syscallRetval int

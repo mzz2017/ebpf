@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/cilium/ebpf/internal/unix"
+	"github.com/mzz2017/ebpf/internal/unix"
 )
 
 var profSet unix.Sigset_t

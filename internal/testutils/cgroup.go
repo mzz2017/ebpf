@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cilium/ebpf/internal"
+	"github.com/mzz2017/ebpf/internal"
 	"golang.org/x/sys/unix"
 )
 

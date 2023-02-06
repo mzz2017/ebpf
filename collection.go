@@ -7,8 +7,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/btf"
+	"github.com/mzz2017/ebpf/asm"
+	"github.com/mzz2017/ebpf/btf"
 )
 
 // CollectionOptions control loading a collection into the kernel.

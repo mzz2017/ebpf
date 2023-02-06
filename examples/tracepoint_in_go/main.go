@@ -10,11 +10,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/cilium/ebpf"
-	"github.com/cilium/ebpf/asm"
-	"github.com/cilium/ebpf/link"
-	"github.com/cilium/ebpf/perf"
-	"github.com/cilium/ebpf/rlimit"
+	"github.com/mzz2017/ebpf"
+	"github.com/mzz2017/ebpf/asm"
+	"github.com/mzz2017/ebpf/link"
+	"github.com/mzz2017/ebpf/perf"
+	"github.com/mzz2017/ebpf/rlimit"
 )
 
 // Metadata for the eBPF program used in this example.

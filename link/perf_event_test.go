@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cilium/ebpf/internal/testutils"
 	qt "github.com/frankban/quicktest"
+	"github.com/mzz2017/ebpf/internal/testutils"
 )
 
 func TestTraceEventID(t *testing.T) {

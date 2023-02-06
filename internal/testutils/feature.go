@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/cilium/ebpf/internal"
+	"github.com/mzz2017/ebpf/internal"
 )
 
 func CheckFeatureTest(t *testing.T, fn func() error) {

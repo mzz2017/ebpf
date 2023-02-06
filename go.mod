@@ -1,4 +1,4 @@
-module github.com/cilium/ebpf
+module github.com/mzz2017/ebpf
 
 go 1.18
 

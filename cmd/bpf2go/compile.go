@@ -64,8 +64,8 @@ func compile(args compileArgs) error {
 		// Don't output inputDir into debug info
 		"-fdebug-prefix-map="+inputDir+"="+relInputDir,
 		"-fdebug-compilation-dir", ".",
-		// We always want BTF to be generated, so enforce debug symbols
-		"-g",
+		// Remove the BTF debug info.
+		//"-g",
 		fmt.Sprintf("-D__BPF_TARGET_MISSING=%q", "GCC error \"The eBPF is using target specific macros, please provide -target that is not bpf, bpfel or bpfeb\""),
 	)
 	cmd.Dir = args.dir
